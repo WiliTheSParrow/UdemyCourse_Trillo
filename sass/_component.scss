@@ -1,22 +1,51 @@
 ///////////////////////////////////////
 //LOGO
 
-.logo{
+.logo {
     height: 3.25rem;
+    margin-left: 3rem;
 }
 
 ///////////////////////////////////////
 //SEARCH
-.search{
-    &__input{
+.search {
+    background-color: orangered;
+    flex: 0 0 40%;
 
+    &__input {
+        //input doesn't inherit automatically the font-family, size, color, we have to set it:
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        background-color: var(--color-grey-light-2);
+        border: none;
+        padding: .7rem 2rem;
+        border-radius: 100px;
+        width: 90%;
+        transition: all .2s;
+        margin-right: -3.5rem;
+
+        &:focus {
+            outline: none;
+            width: 100%;
+            background-color: var(--color-grey-light-3);
+        }
     }
 
-    &__button{
-        
+    &__button {
+        border: none;
+        background-color: var(--color-grey-light-2);
+
+        &:focus {
+            outline: none;
+        }
+
+        &:active {
+            transform: translateY(2px);
+        }
     }
 
-    &__icon{
+    &__icon {
         height: 2rem;
         width: 2rem;
     }
@@ -25,22 +54,24 @@
 ///////////////////////////////////////
 //USER NAVIGATION
 
-.user-nav{
-    &__icon-box{}
+.user-nav {
+    background-color: greenyellow;
 
-    &__icon{
+    &__icon-box {}
+
+    &__icon {
         height: 2.25rem;
         width: 2.25rem;
     }
 
-    &__notification{}
+    &__notification {}
 
-    &__user{}
+    &__user {}
 
-    &__user-photo{
+    &__user-photo {
         height: 3.75rem;
         border-radius: 50%;
     }
 
-    &__user-name{}
+    &__user-name {}
 }
