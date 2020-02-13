@@ -322,3 +322,12 @@ body {
     -webkit-mask-size: cover;
     mask-image: url(../img/chevron-thin-right.svg);
     mask-size: cover; }
+
+.recommend {
+  font-size: 1.3rem;
+  color: var(--color-grey-dark-3);
+  display: flex; }
+  .recommend__photo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%; }
