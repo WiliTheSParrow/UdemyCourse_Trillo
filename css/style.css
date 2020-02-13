@@ -316,4 +316,7 @@ body {
     display: inline-block;
     height: 2rem;
     width: 2rem;
-    margin-right: .7rem; }
+    margin-right: .7rem;
+    background-color: var(--color-primary);
+    -webkit-mask-image: url(../img/chevron-thin-right.svg);
+    -webkit-mask-size: cover; }

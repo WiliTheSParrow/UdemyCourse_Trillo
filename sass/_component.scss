@@ -349,6 +349,11 @@
         //background-image: url(../img/chevron-thin-right.svg);
         //background-size: cover;
 
+        //Newer browsers - masks
+        background-color: var(--color-primary);
+        -webkit-mask-image: url(../img/chevron-thin-right.svg);
+        -webkit-mask-size: cover;
+
     }
 }
 
