@@ -381,6 +381,10 @@
         margin-right: auto;
     }
 
+    &__friends {
+        display: flex;
+    }
+
     &__photo {
         box-sizing: content-box;
         height: 4rem;
@@ -389,7 +393,7 @@
         border: 3px solid #fff;
 
         &:not(:last-child) {
-            margin-right: -1.5rem;
+            margin-right: -2rem;
         }
     }
 }
@@ -456,4 +460,19 @@
         z-index: 1;
     }
 
+}
+
+///////////////////////////////////////
+//CALL TO ACTION
+
+.cta{
+    padding: 3.5rem 0;
+    text-align: center;
+
+    &__book-now{
+        font-size: 2rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: 2.5rem;
+    }
 }
