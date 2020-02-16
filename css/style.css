@@ -286,6 +286,9 @@ body {
   @media only screen and (max-width: 56.25em) {
     .legal {
       display: none; } }
+  .legal__link {
+    text-decoration: underline;
+    color: inherit; }
 
 .gallery {
   display: flex; }
