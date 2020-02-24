@@ -1,4 +1,4 @@
-<img src="/img/logo.png" alt="Natours logo">
+<img src="/img/logo.png" alt="Trillo logo">
 
 # Trillo
 
